@@ -68,3 +68,8 @@ sudo apt-mark hold kubelet kubeadm kubectl
 sudo systemctl enable kubelet
 
 echo "Kubernetes 1.30 Cluster Setup is Complete!"
+echo "Step 10: Initialize the Cluster and Install CNI In the master node"
+echo "use this in master node: sudo kubeadm config images pull"
+echo "run this in master node: sudo kubeadm init"
+echo "apply the CNI yaml in Master node"
+echo "run this command in master node: kubectl apply -f https://reweave.azurewebsites.net/k8s/v1.30/net.yaml"

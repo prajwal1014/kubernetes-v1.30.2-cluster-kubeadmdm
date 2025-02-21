@@ -68,3 +68,4 @@ sudo apt-mark hold kubelet kubeadm kubectl
 sudo systemctl enable kubelet
 
 echo "Kubernetes 1.30 Cluster Setup is Complete!"
+echo "Script created by SAK"

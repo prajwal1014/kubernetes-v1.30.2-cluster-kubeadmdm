@@ -77,3 +77,5 @@ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 echo "apply the CNI yaml in Master node" 
 kubectl apply -f https://reweave.azurewebsites.net/k8s/v1.30/net.yaml
+echo "Kuberenets completely installed in master node"
+echo "Script done by SAK"

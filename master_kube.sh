@@ -75,6 +75,7 @@ echo "To start using your cluster, you need to run the following as a regular us
 mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
+echo "applyied with mkdir and cp and shown"
 echo "apply the CNI yaml in Master node" 
 kubectl apply -f https://reweave.azurewebsites.net/k8s/v1.30/net.yaml
 echo "Kuberenets completely installed in master node"

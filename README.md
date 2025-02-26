@@ -11,6 +11,17 @@ This guide provides step-by-step instructions to set up a Kubernetes 1.30 cluste
 - Instance type --> t2.medium
 - sg --> all traffic
 
+---
+## Master_node Link
+```bash
+curl -sL https://raw.githubusercontent.com/sakit333/kubernetes-v1.30.10-cluster-kubeadmdm/refs/heads/main/master_kube.sh | bash
+```
+
+## Worker_node Link
+```bash
+curl -sL https://raw.githubusercontent.com/sakit333/kubernetes-v1.30.10-cluster-kubeadmdm/refs/heads/main/sak_worker_kube.sh | bash
+```
+
 ## Step-by-Step Installation
 
 ### Step 1: Disable Swap on All Nodes
